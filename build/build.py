@@ -18,7 +18,7 @@ for project_directory in project_directories:
                 file_size = os.path.getsize(file_name)
                 file_date = 116444736000000000 + int(os.path.getmtime(file_name) * 10000000.0)
 
-                content_entry = {"path": file_name, "size": file_size, "date": file_date}
+                content_entry = {"path": file_name.replace(root_dir, ""), "size": file_size, "date": file_date}
                 content_entries.append(content_entry)
 
                 print("Added file: " + file_name)
@@ -29,7 +29,7 @@ for project_directory in project_directories:
                 file_size = os.path.getsize(file_path)
                 file_date = 116444736000000000 + int(os.path.getmtime(file_path) * 10000000.0)
 
-                content_entry = {"path": file_path.replace(os.sep, "/"), "size": file_size, "date": file_date}
+                content_entry = {"path": file_path.replace(root_dir, "").replace(os.sep, "/"), "size": file_size, "date": file_date}
                 content_entries.append(content_entry)
 
                 total_package_size += file_size
