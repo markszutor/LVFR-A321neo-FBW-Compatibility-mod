@@ -64262,10 +64262,11 @@
 
 	const TuningModeIndicator = _ref => {
 	  let {
-	    index
+	    index,
+	    frequency
 	  } = _ref;
-	  const [tuningMode] = useSimVar('L:A32NX_FMGC_RADIONAV_TUNING_MODE', 'enum');
-	  return tuningMode !== TuningMode.Auto && /*#__PURE__*/jsxRuntime.jsx("text", {
+	  const [tuningMode] = useSimVar("L:A32NX_FMGC_RADIONAV_".concat(index, "_TUNING_MODE"), 'enum');
+	  return frequency > 1 && tuningMode !== TuningMode.Auto && /*#__PURE__*/jsxRuntime.jsx("text", {
 	    x: index === 1 ? 138 : 616,
 	    y: 720,
 	    fontSize: 20,
@@ -64352,7 +64353,8 @@
 	        children: "NM"
 	      })]
 	    }), /*#__PURE__*/jsxRuntime.jsx(TuningModeIndicator, {
-	      index: index
+	      index: index,
+	      frequency: vorFrequency
 	    })]
 	  });
 	};
@@ -64380,20 +64382,27 @@
 	      fontSize: 24,
 	      className: "Green",
 	      children: ["ADF", index]
+	    }), /*#__PURE__*/jsxRuntime.jsx("text", {
+	      x: x,
+	      y: 722,
+	      fontSize: 24,
+	      className: "Green",
+	      children: adfAvailable ? adfIdent : adfFrequency.toFixed(0)
 	    }), adfAvailable && /*#__PURE__*/jsxRuntime.jsx("text", {
 	      x: x,
 	      y: 722,
 	      fontSize: 24,
 	      className: "Green",
 	      children: adfIdent
-	    }), !adfAvailable && adfFrequency > 0 && /*#__PURE__*/jsxRuntime.jsx("text", {
+	    }), !adfAvailable && /*#__PURE__*/jsxRuntime.jsx("text", {
 	      x: x,
 	      y: 722,
 	      fontSize: 24,
 	      className: "Green",
 	      children: Math.floor(adfFrequency).toFixed(0)
 	    }), /*#__PURE__*/jsxRuntime.jsx(TuningModeIndicator, {
-	      index: index
+	      index: index,
+	      frequency: adfFrequency
 	    })]
 	  });
 	};
@@ -69904,7 +69913,7 @@
 	  const [vorIdent] = useSimVar("NAV IDENT:".concat(index), 'string');
 	  const [vorFrequency] = useSimVar("NAV ACTIVE FREQUENCY:".concat(index), 'megahertz');
 	  const [vorCourse] = useSimVar("NAV OBS:".concat(index), 'degrees');
-	  const [tuningMode] = useSimVar('L:A32NX_FMGC_RADIONAV_TUNING_MODE', 'enum');
+	  const [tuningMode] = useSimVar("L:A32NX_FMGC_RADIONAV_".concat(index, "_TUNING_MODE"), 'enum');
 	  const [vorAvailable] = useSimVar("NAV HAS NAV:".concat(index), 'boolean');
 	  const [freqInt, freqDecimal] = vorFrequency.toFixed(2).split('.', 2);
 	  const [tuningModeLabel, setTuningModeLabel] = react.useState('');
@@ -69945,7 +69954,7 @@
 	      className: "Cyan",
 	      textAnchor: "end",
 	      children: [vorCourse >= 0 ? "".concat(Math.round(vorCourse)).padStart(3, '0') : '---', "\xB0"]
-	    }), /*#__PURE__*/jsxRuntime.jsx("text", {
+	    }), vorFrequency > 0 && /*#__PURE__*/jsxRuntime.jsx("text", {
 	      x: -80,
 	      y: 58,
 	      fontSize: 20,
@@ -69967,7 +69976,7 @@
 	  const [ilsIdent] = useSimVar('NAV IDENT:3', 'string');
 	  const [ilsFrequency] = useSimVar('NAV ACTIVE FREQUENCY:3', 'megahertz');
 	  const [ilsCourse] = useSimVar('NAV LOCALIZER:3', 'degrees');
-	  const [tuningMode] = useSimVar('L:A32NX_FMGC_RADIONAV_TUNING_MODE', 'enum');
+	  const [tuningMode] = useSimVar('L:A32NX_FMGC_RADIONAV_3_TUNING_MODE', 'enum');
 	  const [locAvailable] = useSimVar('L:A32NX_RADIO_RECEIVER_LOC_IS_VALID', 'number');
 	  const [freqInt, freqDecimal] = ilsFrequency.toFixed(2).split('.', 2);
 	  const [tuningModeLabel, setTuningModeLabel] = react.useState('');
@@ -70008,7 +70017,7 @@
 	      className: "Magenta",
 	      textAnchor: "end",
 	      children: [locAvailable ? "".concat(Math.round(ilsCourse)).padStart(3, '0') : '---', "\xB0"]
-	    }), /*#__PURE__*/jsxRuntime.jsx("text", {
+	    }), ilsFrequency > 0 && /*#__PURE__*/jsxRuntime.jsx("text", {
 	      x: -80,
 	      y: 58,
 	      fontSize: 20,
