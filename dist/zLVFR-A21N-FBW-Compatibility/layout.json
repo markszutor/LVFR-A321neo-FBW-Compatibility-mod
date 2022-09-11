@@ -912,8 +912,8 @@
     },
     {
       "path": "html_ui/Pages/A32NX_Utils/NXSpeeds.js",
-      "size": 16710,
-      "date": 133064317545184682
+      "size": 18451,
+      "date": 133073825665335304
     },
     {
       "path": "html_ui/Pages/A32NX_Utils/NXSystemMessages.js",
@@ -1127,8 +1127,8 @@
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/A32NX/EFB/template.html",
-      "size": 5214551,
-      "date": 133063850864917674
+      "size": 5214795,
+      "date": 133073865397927764
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/A32NX/EFB/template.js",
@@ -1157,8 +1157,8 @@
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/A32NX/ND/template.html",
-      "size": 2131688,
-      "date": 133062879367406712
+      "size": 2133273,
+      "date": 133072119915442326
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/A32NX/ND/template.js",
@@ -1227,8 +1227,8 @@
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A321LEAP/EFB/template.html",
-      "size": 5214547,
-      "date": 133063851132858344
+      "size": 5214791,
+      "date": 133073865510247044
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A321LEAP/EFB/template.js",
@@ -1252,8 +1252,8 @@
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A321LEAP1/EFB/template.html",
-      "size": 5214547,
-      "date": 133063851206648664
+      "size": 5214791,
+      "date": 133073865626317006
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A321LEAP1/EFB/template.js",
@@ -1277,8 +1277,8 @@
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A321LEAP2/EFB/template.html",
-      "size": 5214547,
-      "date": 133063851251408678
+      "size": 5214769,
+      "date": 133073835849774618
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A321LEAP2/EFB/template.js",
@@ -1302,8 +1302,8 @@
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A321LEAP3/EFB/template.html",
-      "size": 5214547,
-      "date": 133063851292438648
+      "size": 5214791,
+      "date": 133073865812446694
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A321LEAP3/EFB/template.js",
@@ -2017,8 +2017,8 @@
     },
     {
       "path": "SimObjects/Airplanes/A321neoLEAP/cameras.cfg",
-      "size": 34303,
-      "date": 133048021480000000
+      "size": 32648,
+      "date": 133073790421038756
     },
     {
       "path": "SimObjects/Airplanes/A321neoLEAP/Climb.flt",
@@ -2073,7 +2073,7 @@
     {
       "path": "SimObjects/Airplanes/A321neoLEAP/systems.cfg",
       "size": 47220,
-      "date": 133063500720160548
+      "date": 133073866667658994
     },
     {
       "path": "SimObjects/Airplanes/A321neoLEAP/target_performance.cfg",
@@ -2154,6 +2154,11 @@
       "path": "SimObjects/Airplanes/A321neoLEAP/model/model.CFG",
       "size": 890,
       "date": 133048021478406898
+    },
+    {
+      "path": "SimObjects/Airplanes/A321neoLEAP/model.NCP/model.CFG",
+      "size": 946,
+      "date": 133073866474433848
     },
     {
       "path": "SimObjects/Airplanes/A321neoLEAP/panel/fadec.wasm",
@@ -2302,8 +2307,8 @@
     },
     {
       "path": "SimObjects/Airplanes/A321neoLEAP/texture/A320NEO_COCKPIT_DECALSTEXT_ALBD.TIF.dds",
-      "size": 22369796,
-      "date": 132860749740000000
+      "size": 8388736,
+      "date": 133072119915372322
     },
     {
       "path": "SimObjects/Airplanes/A321neoLEAP/texture/A320NEO_COCKPIT_DECALSTEXT_ALBD.TIF.DDS.FLAGS",
@@ -3247,8 +3252,8 @@
     },
     {
       "path": "SimObjects/Airplanes/aircrafta321neolrLEAP/cameras.cfg",
-      "size": 34303,
-      "date": 133048021480000000
+      "size": 32648,
+      "date": 133073790421048758
     },
     {
       "path": "SimObjects/Airplanes/aircrafta321neolrLEAP/Climb.flt",
@@ -3272,8 +3277,8 @@
     },
     {
       "path": "SimObjects/Airplanes/aircrafta321neolrLEAP/engines.cfg",
-      "size": 12139,
-      "date": 133064340249478960
+      "size": 12145,
+      "date": 133072117629319958
     },
     {
       "path": "SimObjects/Airplanes/aircrafta321neolrLEAP/final.FLT",
@@ -3303,7 +3308,7 @@
     {
       "path": "SimObjects/Airplanes/aircrafta321neolrLEAP/systems.cfg",
       "size": 47220,
-      "date": 133063500720160548
+      "date": 133073866667658994
     },
     {
       "path": "SimObjects/Airplanes/aircrafta321neolrLEAP/target_performance.cfg",
@@ -3384,6 +3389,11 @@
       "path": "SimObjects/Airplanes/aircrafta321neolrLEAP/model/model.CFG",
       "size": 900,
       "date": 133048021679057780
+    },
+    {
+      "path": "SimObjects/Airplanes/aircrafta321neolrLEAP/model.NCP/model.CFG",
+      "size": 946,
+      "date": 133073866516723866
     },
     {
       "path": "SimObjects/Airplanes/aircrafta321neolrLEAP/panel/fadec.wasm",
@@ -3472,8 +3482,8 @@
     },
     {
       "path": "SimObjects/Airplanes/aircrafta321neolrPW/cameras.cfg",
-      "size": 34303,
-      "date": 133048021480000000
+      "size": 32648,
+      "date": 133073790421058778
     },
     {
       "path": "SimObjects/Airplanes/aircrafta321neolrPW/Climb.flt",
@@ -3497,8 +3507,8 @@
     },
     {
       "path": "SimObjects/Airplanes/aircrafta321neolrPW/engines.cfg",
-      "size": 12138,
-      "date": 133064339806736410
+      "size": 12144,
+      "date": 133072117377656470
     },
     {
       "path": "SimObjects/Airplanes/aircrafta321neolrPW/final.FLT",
@@ -3528,7 +3538,7 @@
     {
       "path": "SimObjects/Airplanes/aircrafta321neolrPW/systems.cfg",
       "size": 47220,
-      "date": 133063500720160548
+      "date": 133073866667658994
     },
     {
       "path": "SimObjects/Airplanes/aircrafta321neolrPW/target_performance.cfg",
@@ -3611,6 +3621,11 @@
       "date": 133048021701241668
     },
     {
+      "path": "SimObjects/Airplanes/aircrafta321neolrPW/model.NCP/model.CFG",
+      "size": 946,
+      "date": 133073866551053872
+    },
+    {
       "path": "SimObjects/Airplanes/aircrafta321neolrPW/panel/fadec.wasm",
       "size": 595098,
       "date": 133048179740000000
@@ -3687,8 +3702,8 @@
     },
     {
       "path": "SimObjects/Airplanes/aircrafta321neopw/cameras.cfg",
-      "size": 34303,
-      "date": 133048021480000000
+      "size": 32648,
+      "date": 133073790421058778
     },
     {
       "path": "SimObjects/Airplanes/aircrafta321neopw/Climb.flt",
@@ -3712,8 +3727,8 @@
     },
     {
       "path": "SimObjects/Airplanes/aircrafta321neopw/engines.cfg",
-      "size": 12124,
-      "date": 133064340000749330
+      "size": 12130,
+      "date": 133072117268764586
     },
     {
       "path": "SimObjects/Airplanes/aircrafta321neopw/final.FLT",
@@ -3743,7 +3758,7 @@
     {
       "path": "SimObjects/Airplanes/aircrafta321neopw/systems.cfg",
       "size": 47220,
-      "date": 133063500720160548
+      "date": 133073866667658994
     },
     {
       "path": "SimObjects/Airplanes/aircrafta321neopw/target_performance.cfg",
@@ -3824,6 +3839,11 @@
       "path": "SimObjects/Airplanes/aircrafta321neopw/model/model.CFG",
       "size": 896,
       "date": 133048021723109506
+    },
+    {
+      "path": "SimObjects/Airplanes/aircrafta321neopw/model.NCP/model.CFG",
+      "size": 946,
+      "date": 133073866585663862
     },
     {
       "path": "SimObjects/Airplanes/aircrafta321neopw/panel/fadec.wasm",
@@ -3992,8 +4012,8 @@
     },
     {
       "path": "ModelBehaviorDefs/A32NX/Airbus.xml",
-      "size": 54521,
-      "date": 133048179500000000
+      "size": 57284,
+      "date": 133072119915242328
     },
     {
       "path": "ModelBehaviorDefs/A32NX/AirlinerCommon.xml",
