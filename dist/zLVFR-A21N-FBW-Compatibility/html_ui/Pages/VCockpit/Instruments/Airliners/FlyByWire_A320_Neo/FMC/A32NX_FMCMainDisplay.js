@@ -1769,11 +1769,21 @@ class FMCMainDisplay extends BaseAirliners {
                 this._initMessageSettable = true;
             }
         }
-        //INITIALIZE WEIGHT/CG
+         //INITIALIZE WEIGHT/CG
         if (this.isAnEngineOn() && fmGW === 0 && this._initMessageSettable) {
             this.addMessageToQueue(NXSystemMessages.initializeWeightOrCg);
             this._gwInitDisplayed++;
             this._initMessageSettable = false;
+        }
+
+        //CHECK WEIGHT
+        //TO-DO Ground Speed used for redundancy and to simulate delay (~10s) for FAC parameters to be calculated, remove once FAC is available.
+        if (!this.isOnGround() && gwMismatch && this._checkWeightSettable && gs > 180) {
+            this.addMessageToQueue(NXSystemMessages.checkWeight);
+            this._checkWeightSettable = false;
+        } else if (!gwMismatch) {
+            this.removeMessageFromQueue(NXSystemMessages.checkWeight.text);
+            this._checkWeightSettable = true;
         }
     }
 
