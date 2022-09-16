@@ -1775,7 +1775,7 @@ class FMCMainDisplay extends BaseAirliners {
             this._gwInitDisplayed++;
             this._initMessageSettable = false;
         }
-
+        
         //CHECK WEIGHT
         //TO-DO Ground Speed used for redundancy and to simulate delay (~10s) for FAC parameters to be calculated, remove once FAC is available.
         if (!this.isOnGround() && gwMismatch && this._checkWeightSettable && gs > 180) {
