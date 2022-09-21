@@ -4,7 +4,7 @@
  * Indexes: 0 - Config 1 + F, 1 - Config 2, 2 - Config 3.
  * Sub-Indexes: 0 to 9 represent gross weight (t) in 5t steps from 40 to 80.
  */
- const to = [
+const to = [
     [
         () => 126,
         () => 126,
@@ -72,6 +72,7 @@ const vs = [
         (m) => 155 + 1.2 * (m - 65),
         (m) => 161 + m - 70,
         (m) => 166 + 1.2 * (m - 75),
+        () => 172,
     ], // Clean Conf
     [
         () => 93,
