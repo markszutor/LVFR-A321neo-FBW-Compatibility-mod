@@ -2006,11 +2006,6 @@
       "date": 133056083380000000
     },
     {
-      "path": "SimObjects/Airplanes/A321neoLEAP/aircraft.cfg",
-      "size": 27716,
-      "date": 133082770025376158
-    },
-    {
       "path": "SimObjects/Airplanes/A321neoLEAP/approach.FLT",
       "size": 8826,
       "date": 133063480753315854
@@ -3251,11 +3246,6 @@
       "date": 133048021495650358
     },
     {
-      "path": "SimObjects/Airplanes/aircrafta321neolrLEAP/aircraft.cfg",
-      "size": 9811,
-      "date": 133082770025386168
-    },
-    {
       "path": "SimObjects/Airplanes/aircrafta321neolrLEAP/approach.FLT",
       "size": 8826,
       "date": 133063480753315854
@@ -3486,11 +3476,6 @@
       "date": 133048021694982116
     },
     {
-      "path": "SimObjects/Airplanes/aircrafta321neolrPW/aircraft.cfg",
-      "size": 6809,
-      "date": 133082770025406182
-    },
-    {
       "path": "SimObjects/Airplanes/aircrafta321neolrPW/approach.FLT",
       "size": 8826,
       "date": 133063480753315854
@@ -3714,11 +3699,6 @@
       "path": "SimObjects/Airplanes/aircrafta321neolrPW/texture.TSC/texture.CFG",
       "size": 312,
       "date": 133048021716877486
-    },
-    {
-      "path": "SimObjects/Airplanes/aircrafta321neopw/aircraft.cfg",
-      "size": 34986,
-      "date": 133082770025416154
     },
     {
       "path": "SimObjects/Airplanes/aircrafta321neopw/approach.FLT",
