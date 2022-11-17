@@ -59,10 +59,10 @@ class A32NX_Boarding {
             paxRemaining -= pax;
         }
 
-        await fillStation(paxStations['rows22_29'], .28 , numberOfPax);
-        await fillStation(paxStations['rows14_21'], .28, numberOfPax);
-        await fillStation(paxStations['rows7_13'], .25 , numberOfPax);
-        await fillStation(paxStations['rows1_6'], 1 , paxRemaining);
+        await fillStation(paxStations['rows31_40'], .28 , numberOfPax);
+        await fillStation(paxStations['rows21_30'], .28, numberOfPax);
+        await fillStation(paxStations['rows11_20'], .25 , numberOfPax);
+        await fillStation(paxStations['rows1_10'], 1 , paxRemaining);
         return;
     }
 
