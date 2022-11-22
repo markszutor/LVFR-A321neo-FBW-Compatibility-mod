@@ -827,8 +827,8 @@
     },
     {
       "path": "html_ui/Pages/A21N_Core/A21N_PayloadManager.js",
-      "size": 5671,
-      "date": 133119859889875494
+      "size": 5675,
+      "date": 133135760655348663
     },
     {
       "path": "html_ui/Pages/A21N_Core/A21N_Refuel.js",
@@ -1822,8 +1822,13 @@
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A321LEAP/EFB/template.html",
-      "size": 5294129,
-      "date": 133135297534299612
+      "size": 5294134,
+      "date": 133135431870934079
+    },
+    {
+      "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A321LEAP/EFB/template.js",
+      "size": 1697,
+      "date": 133093365780000000
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A321LEAPLR/CDU/A320_Neo_CDU.css",
@@ -1842,8 +1847,13 @@
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A321LEAPLR/EFB/template.html",
-      "size": 5294131,
-      "date": 133135297295921357
+      "size": 5294136,
+      "date": 133135431057793745
+    },
+    {
+      "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A321LEAPLR/EFB/template.js",
+      "size": 1697,
+      "date": 133093365780000000
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A321PW/CDU/A320_Neo_CDU.css",
@@ -1862,8 +1872,13 @@
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A321PW/EFB/template.html",
-      "size": 5294129,
-      "date": 133135296956109614
+      "size": 5294130,
+      "date": 133135430614640446
+    },
+    {
+      "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A321PW/EFB/template.js",
+      "size": 1697,
+      "date": 133093365780000000
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A321PWLR/CDU/A320_Neo_CDU.css",
@@ -1882,13 +1897,13 @@
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A321PWLR/EFB/template.html",
-      "size": 5294131,
-      "date": 133135296640580180
+      "size": 5294132,
+      "date": 133135429783377635
     },
     {
-      "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A321PWLR/EFB/template.txt",
-      "size": 5214789,
-      "date": 133131854710000000
+      "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A321PWLR/EFB/template.js",
+      "size": 1697,
+      "date": 133093365780000000
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/FlightElements/A21N_Runway.js",
