@@ -2281,24 +2281,24 @@
       "date": 133119859863228885
     },
     {
-      "path": "SimObjects/Airplanes/A321neoLEAP/sound/A320_LEAP_Sp.PC.pck",
-      "size": 85972126,
-      "date": 133131854710000000
-    },
-    {
       "path": "SimObjects/Airplanes/A321neoLEAP/sound/FBW_A320_NEO_1.PC.PCK",
       "size": 81371588,
-      "date": 133131854710000000
+      "date": 133081379900000000
     },
     {
       "path": "SimObjects/Airplanes/A321neoLEAP/sound/FBW_A320_NEO_2.PC.PCK",
       "size": 85441471,
-      "date": 133131854710000000
+      "date": 133081379900000000
+    },
+    {
+      "path": "SimObjects/Airplanes/A321neoLEAP/sound/module.json",
+      "size": 140,
+      "date": 133081382960000000
     },
     {
       "path": "SimObjects/Airplanes/A321neoLEAP/sound/sound.xml",
-      "size": 126954,
-      "date": 133131854710000000
+      "size": 214426,
+      "date": 133081379920000000
     },
     {
       "path": "SimObjects/Airplanes/A321neoLEAP/texture/A320NEO_COCKPIT_BACK01_ALBD.PNG.DDS",
@@ -3578,17 +3578,22 @@
     {
       "path": "SimObjects/Airplanes/aircrafta321neolrLEAP/sound/FBW_A320_NEO_1.PC.PCK",
       "size": 81371588,
-      "date": 133131854710000000
+      "date": 133081379900000000
     },
     {
       "path": "SimObjects/Airplanes/aircrafta321neolrLEAP/sound/FBW_A320_NEO_2.PC.PCK",
       "size": 85441471,
-      "date": 133131854710000000
+      "date": 133081379900000000
+    },
+    {
+      "path": "SimObjects/Airplanes/aircrafta321neolrLEAP/sound/module.json",
+      "size": 140,
+      "date": 133081382960000000
     },
     {
       "path": "SimObjects/Airplanes/aircrafta321neolrLEAP/sound/sound.xml",
-      "size": 191331,
-      "date": 133131854710000000
+      "size": 214426,
+      "date": 133081379920000000
     },
     {
       "path": "SimObjects/Airplanes/aircrafta321neolrLEAP/texture/texture.CFG",
