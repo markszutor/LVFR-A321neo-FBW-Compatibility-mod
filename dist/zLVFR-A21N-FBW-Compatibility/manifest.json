@@ -6,7 +6,7 @@
       "OlderHistory": ""
     }
   },
-  "title": "LVFR A321neo Extreme",
+  "title": "Horizon Simulations LVFR A321neo",
   "dependencies": [
     {
       "package_version": "1.2.3",
@@ -24,6 +24,6 @@
   "content_type": "AIRCRAFT",
   "minimum_game_version": "1.9.5",
   "manufacturer": "Airbus",
-  "package_version": "0.3.3",
+  "package_version": "0.4.0",
   "total_package_size": "00000000003226558000"
 }
