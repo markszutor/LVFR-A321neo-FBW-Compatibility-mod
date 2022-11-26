@@ -35,7 +35,7 @@ class A32NX_PayloadConstructor {
                 simVar: "A32NX_PAX_TOTAL_ROWS_14_21"
             },
             rows22_29: {
-                name: 'ROWS [31-30]',
+                name: 'ROWS [31-40]',
                 seats: 60,
                 weight: Math.round(NXUnits.kgToUser(5040)),
                 pax: 0,
