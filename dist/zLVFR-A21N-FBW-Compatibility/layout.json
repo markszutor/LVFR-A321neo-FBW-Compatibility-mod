@@ -1823,7 +1823,7 @@
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A321LEAP/EFB/template.html",
       "size": 5459046,
-      "date": 133138735690283315
+      "date": 133139279761046317
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A321LEAP/EFB/template.js",
@@ -1848,7 +1848,7 @@
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A321LEAPLR/EFB/template.html",
       "size": 5450703,
-      "date": 133139250278599829
+      "date": 133139280130125814
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A321LEAPLR/EFB/template.js",
@@ -1872,8 +1872,8 @@
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A321PW/EFB/template.html",
-      "size": 5459043,
-      "date": 133139250278978811
+      "size": 5459040,
+      "date": 133139280428667585
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A321PW/EFB/template.js",
@@ -1898,7 +1898,7 @@
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A321PWLR/EFB/template.html",
       "size": 5450699,
-      "date": 133139250279347816
+      "date": 133139280631033704
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A321PWLR/EFB/template.js",
