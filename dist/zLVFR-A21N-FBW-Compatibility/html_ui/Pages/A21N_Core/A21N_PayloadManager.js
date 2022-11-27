@@ -2,47 +2,47 @@ class A32NX_PayloadConstructor {
     constructor() {
         this.paxStations = {
             rows1_6: {
-                name: 'ROWS [1-10]',
-                seats: 60,
-                weight: Math.round(NXUnits.kgToUser(5040)),
+                name: 'ROWS [1-8]',
+                seats: 48,
+                weight: Math.round(NXUnits.kgToUser(4032)),
                 pax: 0,
                 paxTarget: 0,
                 stationIndex: 0 + 1,
                 position: 21.98,
-                seatsRange: [1, 61],
+                seatsRange: [1, 49],
                 simVar: "A32NX_PAX_TOTAL_ROWS_1_6"
             },
             rows7_13: {
-                name: 'ROWS [11-20]',
+                name: 'ROWS [9-18]',
                 seats: 60,
                 weight: Math.round(NXUnits.kgToUser(5040)),
                 pax: 0,
                 paxTarget: 0,
                 stationIndex: 1 + 1,
                 position: 2.86,
-                seatsRange: [62, 122],
+                seatsRange: [50, 110],
                 simVar: "A32NX_PAX_TOTAL_ROWS_7_13"
             },
             rows14_21: {
-                name: 'ROWS [21-30]',
+                name: 'ROWS [19-28]',
                 seats: 60,
                 weight: Math.round(NXUnits.kgToUser(5040)),
                 pax: 0,
                 paxTarget: 0,
                 stationIndex: 2 + 1,
                 position: -15.34,
-                seatsRange: [123, 183],
+                seatsRange: [111, 171],
                 simVar: "A32NX_PAX_TOTAL_ROWS_14_21"
             },
             rows22_29: {
-                name: 'ROWS [31-40]',
+                name: 'ROWS [29-38]',
                 seats: 60,
                 weight: Math.round(NXUnits.kgToUser(5040)),
                 pax: 0,
                 paxTarget: 0,
                 stationIndex: 3 + 1,
                 position: -32.81,
-                seatsRange: [184, 244],
+                seatsRange: [172, 232],
                 simVar: "A32NX_PAX_TOTAL_ROWS_22_29"
             },
         };
