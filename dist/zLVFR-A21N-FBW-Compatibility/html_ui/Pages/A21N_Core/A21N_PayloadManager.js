@@ -3,13 +3,13 @@ class A32NX_PayloadConstructor {
         this.paxStations = {
             rows1_6: {
                 name: 'ROWS [1-9]',
-                seats: 56,
-                weight: Math.round(NXUnits.kgToUser(4707)),
+                seats: 54,
+                weight: Math.round(NXUnits.kgToUser(4536)),
                 pax: 0,
                 paxTarget: 0,
                 stationIndex: 0 + 1,
                 position: 21.98,
-                seatsRange: [1, 57],
+                seatsRange: [1, 54],
                 simVar: "A32NX_PAX_TOTAL_ROWS_1_6"
             },
             rows7_13: {
@@ -20,7 +20,7 @@ class A32NX_PayloadConstructor {
                 paxTarget: 0,
                 stationIndex: 1 + 1,
                 position: 2.86,
-                seatsRange: [58, 117],
+                seatsRange: [55, 114],
                 simVar: "A32NX_PAX_TOTAL_ROWS_7_13"
             },
             rows14_21: {
@@ -31,7 +31,7 @@ class A32NX_PayloadConstructor {
                 paxTarget: 0,
                 stationIndex: 2 + 1,
                 position: -15.34,
-                seatsRange: [118, 177],
+                seatsRange: [115, 174],
                 simVar: "A32NX_PAX_TOTAL_ROWS_14_21"
             },
             rows22_29: {
@@ -42,7 +42,7 @@ class A32NX_PayloadConstructor {
                 paxTarget: 0,
                 stationIndex: 3 + 1,
                 position: -32.81,
-                seatsRange: [178, 237],
+                seatsRange: [175, 234],
                 simVar: "A32NX_PAX_TOTAL_ROWS_22_29"
             },
         };
@@ -91,7 +91,7 @@ class A32NX_PayloadConstructor {
 const payloadConstruct = new A32NX_PayloadConstructor();
 const paxStations = payloadConstruct.paxStations;
 const cargoStations = payloadConstruct.cargoStations;
-const MAX_SEAT_AVAILABLE = 256;
+const MAX_SEAT_AVAILABLE = 234;
 
 /**
      * Calculate %MAC ZWFCG of all stations
