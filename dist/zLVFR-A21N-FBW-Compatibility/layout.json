@@ -2088,7 +2088,7 @@
     {
       "path": "SimObjects/Airplanes/A321neoLEAP/aircraft.cfg",
       "size": 22229,
-      "date": 133131854710000000
+      "date": 133153249596774001
     },
     {
       "path": "SimObjects/Airplanes/A321neoLEAP/approach.FLT",
@@ -3332,11 +3332,6 @@
     },
     {
       "path": "SimObjects/Airplanes/A321neoLEAP/texture.EZY/texture.CFG",
-      "size": 258,
-      "date": 133131854710000000
-    },
-    {
-      "path": "SimObjects/Airplanes/A321neoLEAP/texture.FFT/texture.CFG",
       "size": 258,
       "date": 133131854710000000
     },
