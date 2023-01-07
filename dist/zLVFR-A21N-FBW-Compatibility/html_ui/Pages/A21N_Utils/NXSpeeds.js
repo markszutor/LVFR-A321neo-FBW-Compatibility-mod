@@ -15,11 +15,7 @@ const to = [
         (m) => 137 + m - 65,
         (m) => 142 + m - 70,
         (m) => 147 + m - 75,
-        // Support increased GW up to 106t - A21N
-        (m) => 152 + m - 80,
-        (m) => 157 + m - 85,
-        (m) => 162 + m - 90,
-        () => 165
+        () => 151
     ], // Conf 1 + F
     [
         () => 126,
@@ -31,11 +27,7 @@ const to = [
         (m) => 132 + m - 65,
         (m) => 137 + 0.8 * (m - 70),
         (m) => 141 + m - 75,
-        // Support increased GW up to 106t - A21N
-        (m) => 145 + m - 80,
-        (m) => 149 + m - 85,
-        (m) => 153 + m - 90,
-        () => 156
+        () => 146
     ], // Conf 2
     [
         () => 125,
@@ -47,11 +39,7 @@ const to = [
         (m) => 128 + 0.8 * (m - 65),
         (m) => 132 + m - 70,
         (m) => 137 + 0.8 * (m - 75),
-        // Support increased GW up to 106t - A21N
-        (m) => 140 + m - 80,
-        (m) => 144 + m - 85,
-        (m) => 148 + m - 90,
-        () => 151
+        () => 141
     ] // Conf 3
 ];
 
@@ -153,11 +141,7 @@ const vls = [
         (m) => 198 + 1.6 * (m - 65),
         (m) => 206 + 1.2 * (m - 70),
         (m) => 212 + 1.6 * (m - 75),
-        // Support increased GW up to 106t - A21N
-        (m) => 220 + 1.2 * (m - 80),
-        (m) => 226 + 1.6 * (m - 85),
-        (m) => 234 + 1.2 * (m - 90),
-        () => 240
+        () => 220
     ], // Clean Config
     [
         () => 114,
@@ -169,11 +153,7 @@ const vls = [
         (m) => 144 + m - 65,
         (m) => 149 + m - 70,
         (m) => 154 + 1.2 * (m - 75),
-        // Support increased GW up to 106t - A21N
-        (m) => 162 + m - 80,
-        (m) => 167 + 1.2 * (m - 85),
-        (m) => 173 + m - 90,
-        () => 178
+        () => 160
     ], // Config 1 + F
     [
         () => 110,
@@ -185,11 +165,7 @@ const vls = [
         (m) => 142 + .6 * (m - 65),
         (m) => 145 + .8 * (m - 70),
         (m) => 149 + m - 75,
-        // Support increased GW up to 106t - A21N
-        (m) => 157 + m - 80,
-        (m) => 162 + .6 * (m - 85),
-        (m) => 168 + m - 90,
-        () => 173
+        () => 154
     ], // Config 2
     [
         (_, ldg) => 117 - ldg,
@@ -201,11 +177,7 @@ const vls = [
         (m, ldg) => correctCg(m, (m, cg) => (cg < 25 ? 142 : 141) + m - 65) - ldg,
         (m, ldg) => correctCg(m, (m, cg) => (cg < 25 ? 147 : 146) + m - 70) - ldg,
         (m, ldg) => correctCg(m, (m, cg) => cg < 25 ? 152 + .8 * (m - 75) : 151 + m - 65) - ldg,
-        // Support increased GW up to 106t - A21N
-        (m, ldg) => correctCg(m, (m, cg) => cg < 25 ? 160 + m - 80 : 159 + m - 80) - ldg,
-        (m, ldg) => correctCg(m, (m, cg) => cg < 25 ? 165 + .6 * (m - 85) : 164 + m - 85) - ldg,
-        (m, ldg) => correctCg(m, (m, cg) => cg < 25 ? 171 + m - 90 : 170 + m - 90) - ldg,
-        (_, ldg) => 176 - ldg
+        (_, ldg) => 156 - ldg
     ], // Config 3
     [
         () => 116,
@@ -217,11 +189,7 @@ const vls = [
         (m) => correctCg(m, (m, cg) => (cg < 25 ? 130 : 129) + m - 65),
         (m) => correctCg(m, (m, cg) => cg < 25 ? 135 + .8 * (m - 70) : 134 + m - 70),
         (m) => 139 + .8 * (m - 75),
-        // Support increased GW up to 106t - A21N
-        (m) => 147 + m - 80,
-        (m) => 152 + .6 * (m - 85),
-        (m) => 158 + m - 90,
-        () => 163
+        () => 143
     ], // Config Full
     [
         () => 125,
@@ -233,11 +201,7 @@ const vls = [
         (m) => 156 + 1.2 * (m - 65),
         (m) => 162 + 1.4 * (m - 70),
         (m) => 169 + .8 * (m - 75),
-        // Support increased GW up to 106t - A21N
-        (m) => 177 + m - 80,
-        (m) => 182 + 1.2 * (m - 85),
-        (m) => 188 + 1.4 * (m - 90),
-        () => 194
+        () => 173
     ] // Config 1
 ];
 
@@ -304,11 +268,7 @@ const f = [
     (m) => 149 + 1.2 * (m - 65),
     (m) => 155 + m - 70,
     (m) => 160 + 1.20 * (m - 75),
-    // Support increased GW up to 106t - A21N
-    (m) => 168 + m - 80,
-    (m) => 173 + 1.2 * (m - 85),
-    (m) => 179 + m - 90,
-    () => 184
+    () => 166
 ];
 
 /**
@@ -326,11 +286,7 @@ const s = [
     (m) => 193 + 1.4 * (m - 65),
     (m) => 200 + 1.4 * (m - 70),
     (m) => 207 + 1.4 * (m - 75),
-    // Support increased GW up to 106t - A21N
-    (m) => 217 + 1.4 * (m - 80),
-    (m) => 224 + 1.4 * (m - 85),
-    (m) => 231 + 1.4 * (m - 90),
-    () => 238
+    () => 214
 ];
 
 /**
@@ -366,7 +322,7 @@ function correctCg(m, f, cg = SimVar.GetSimVarValue("CG PERCENT", "percent")) {
  * @private
  */
 function _correctMass(m) {
-    return Math.ceil(((m > 107 ? 107 : m) - 40) / 5);
+    return Math.ceil(((m > 80 ? 80 : m) - 40) / 5);
 }
 
 /**
