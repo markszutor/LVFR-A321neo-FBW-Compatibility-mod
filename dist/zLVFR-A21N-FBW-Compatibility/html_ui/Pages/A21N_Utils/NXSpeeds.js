@@ -322,7 +322,7 @@ function correctCg(m, f, cg = SimVar.GetSimVarValue("CG PERCENT", "percent")) {
  * @private
  */
 function _correctMass(m) {
-    return Math.ceil(((m > 107 ? 107 : m) - 40) / 5);
+    return Math.ceil(((m > 80 ? 80 : m) - 40) / 5);
 }
 
 /**
