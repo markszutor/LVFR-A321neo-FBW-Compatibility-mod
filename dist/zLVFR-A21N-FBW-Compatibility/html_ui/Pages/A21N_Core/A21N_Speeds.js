@@ -55,7 +55,7 @@ class A32NX_Speeds {
 
         this.lastFhi = fhi;
         this.lastGw = gw;
-        this.cgw = Math.ceil(((gw > 80 ? 80 : gw) - 40) / 5);
+        this.cgw = Math.ceil(((gw > 100 ? 100 : gw) - 50) / 5);
         this.ldgPos = ldg;
         this.alt = alt;
 
